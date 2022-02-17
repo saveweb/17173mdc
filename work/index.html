@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="keywords" content="Mission Day China" />
+    <meta http-equiv="description" content="Mission Day China" />
+    <title>商务合作_Mission Day China</title>
+    <link rel="stylesheet" href="/static//css/style-v2.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico"/>
+</head>
+<body>
+<div class="container">
+    <div class="container-wrap">
+        <div class="header">
+            <a class="link-ingress" title="Ingress" href="http://www.ingress.com" target="_blank"></a><a class="link-17173" title="17173" href="http://www.17173.com" target="_blank"></a>
+        </div>
+        <div class="nav clear">
+            <a href="/" >首页</a>
+            <a href="/oldAct">以往活动</a>
+            <a href="/wuxi2018">当前活动</a>
+            <a href="/futureAct">未来活动</a>
+            <a href="/bio/wuxi2018">BIO墙</a>
+        </div>
+
+ 
+        <!--end.header-->
+        <!--main-->
+        <div class="main">
+            <div class="hd">
+                <ul class="work-list">
+                    <li class="clear">
+                        <div class="s s1">
+                            <i class="ico ico-work1"></i>
+                        </div>
+                        <div class="s s2">
+                            <div class="title"><span>商务</span>合作</div>
+                            <p>若您有关于交通往来、（团体）餐饮住宿、场地搭建等各种商业资源想要合作，请联系我们</p>
+                        </div>
+                        <div class="s s3">
+                            <p>· 联系人：黄先生</p>
+                            <p>· 邮　件：Nuohuang@cyou-inc.com</p>
+                        </div>
+                    </li>
+                    <li class="clear">
+                        <div class="s s1">
+                            <i class="ico ico-work2"></i>
+                        </div>
+                        <div class="s s2">
+                            <div class="title"><span>游戏</span>周边</div>
+                            <p>我们鼓励玩家自制各类游戏周边进行贩售，我们将尽量为您提供现场摊位或网络销售渠道。关于游戏周边的制作、出售等事宜请以如下方式联络我们</p>
+                        </div>
+                        <div class="s s3">
+                            <p>· 联系人：黄先生</p>
+                            <p>· 邮　件：Nuohuang@cyou-inc.com</p>
+                        </div>
+                    </li>
+                    <li class="clear last">
+                        <div class="s s1">
+                            <i class="ico ico-work3"></i>
+                        </div>
+                        <div class="s s2">
+                            <div class="title"><span>文化</span>交流</div>
+                            <p>倘若有聚会交流、组团腐败、带队旅游、网吧开黑……等一系列玩家喜闻乐见的文娱活动，倘若有组织这些活动的实力和兴趣，请联系我们</p>
+                        </div>
+                        <div class="s s3">
+                            <p>· 联系人：黄先生</p>
+                            <p>· 邮　件：Nuohuang@cyou-inc.com</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="bd"></div>
+        </div>
+        <!--end.main-->
+    </div>
+       <div class="link">
+        <div class="wrap">
+            <ul class="clear">
+                <li>
+                    <img src="/static/images/pic-niantic.png" alt=""/><a target="_blank" href="http://www.nianticlabs.com/">关于 Niantic Labs</a>
+                </li>
+                <li>
+                    <img src="/static/images/pic-17173.png" alt=""/><a target="_blank" href="http://about.17173.com">关于 17173.com</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="global-footer">
+        <a target="_blank" href="http://about.17173.com/">关于17173</a> |
+        <a target="_blank" href="http://about.17173.com/join-us.shtml">人才招聘</a> |
+        <a target="_blank" href="http://marketing.17173.com">广告服务</a> |
+        <a target="_blank" href="http://about.17173.com/business-cooperate.shtml">商务洽谈</a> |
+        <a target="_blank" href="http://about.17173.com/contact-us.shtml">联系方式</a> |
+        <a target="_blank" href="http://help.17173.com/">客服中心</a> |
+        <a target="_blank" href="http://about.17173.com/site-map.shtml">网站导航</a> <br>
+        <span class="copyright">Copyright &copy; 2001-2018 17173. All rights reserved.</span>
+    </div>
+    <span id="navCur" hidden style="display: none"></span>
+</div>
+<script type="text/javascript" src="/static//js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/static//js/utils.js"></script>
+<script type="text/javascript">
+$(function(){
+    $('.banner').alFadeslider();
+
+    if ($(".nav").length > 0) {
+        $(".nav a").each(function() {
+            if ($(this).text() == $("#navCur").text()) {
+                $(this).attr('class', 'cur');
+            }
+        })
+    }
+    $("#navCur").text();
+
+    //滚动效果
+    $("#js-scroll").alstepscroll({
+        visible:5,
+        pre:'.pre',
+        next:'.next'
+    });
+});
+</script>
+
+<noscript>
+    <img src="http://log.17173.com/ping.gif" height="0" width="0" alt="" />
+</noscript> 
+</body>
+</html>

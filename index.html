@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="keywords" content="Mission Day China" />
+    <meta http-equiv="description" content="Mission Day China" />
+    <title>Mission Day China</title>
+    <link rel="stylesheet" href="/static//css/style-v2.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico"/>
+</head>
+<body>
+<div class="container">
+    <div class="container-wrap">
+        <div class="header">
+            <a class="link-ingress" title="Ingress" href="http://www.ingress.com" target="_blank"></a><a class="link-17173" title="17173" href="http://www.17173.com" target="_blank"></a>
+        </div>
+        <div class="nav clear">
+            <a href="/" >首页</a>
+            <a href="/oldAct">以往活动</a>
+            <a href="/wuxi2018">当前活动</a>
+            <a href="/futureAct">未来活动</a>
+            <a href="/bio/wuxi2018">BIO墙</a>
+        </div>
+
+ 
+        <div class="flash banner">
+            <ul class="origin">
+                <li class="cur">
+                    <a href="/wuxi2018">
+                        <img src="/static//images/index-wuxi.jpg" alt=""/>
+                    </a>
+                </li>     
+            </ul>
+        </div>     
+        <div class="about">
+            <div class="inner clear">
+                <div class="box line">
+                    <div class="h clear">
+                        <i class="ico ico1"></i><span class="t">什么是<b> Ingress？</b></span>
+                    </div>
+                    <p>《Ingress》是Niantic工作室于2013年推出的基于位置服务（LBS）的增强虚拟现实（AR）游戏，载体为移动终端（手机、平板电脑等）。玩家在游戏中扮演一名特工（Agent），选择加入相互对抗的两个阵营之一，为了地球的未来而战斗。由于玩家需要频繁在户外活动并经常与其他玩家交互，可以实现强身健体并结识更多朋友的目的。绝大多数玩家表示借助Ingress认识到了许多前所未见的新风景。</p>
+                    <p>* 游戏需要虚拟砖混结构建筑物逾越技术，详情请咨询本地老玩家</p>
+                </div>
+                <div class="box">
+                    <div class="h clear">
+                        <i class="ico ico2"></i><span class="t">什么是<b> Mission Day？</b></span>
+                    </div>
+                    <p>这是Ingress官方与活动当地旅游局共同组织的大型活动，玩家来到指定城市，自行选择完成数个指定任务以获得相应奖牌（往往靠步行或骑行）。任务的目的地均为精心设计，在完成任务过程中你通常会欣赏到著名风景，或许还会结缘无名浪漫。</p>
+                </div>
+                    <div class="about-bio">
+                        <div class="img">
+                           <a href="/bio/wuxi2018">
+                                <img src="/static//images/about-bio.jpg" alt=""/>     
+                            </a>
+                        </div>
+                        <p><b>一见就想要点击的<span>BIO Wall</span></b></p>
+                        <p>MDC,17173.com,China 373公里</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+        <div class="link">
+        <div class="wrap">
+            <ul class="clear">
+                <li>
+                    <img src="/static/images/pic-niantic.png" alt=""/><a target="_blank" href="http://www.nianticlabs.com/">关于 Niantic Labs</a>
+                </li>
+                <li>
+                    <img src="/static/images/pic-17173.png" alt=""/><a target="_blank" href="http://about.17173.com">关于 17173.com</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="global-footer">
+        <a target="_blank" href="http://about.17173.com/">关于17173</a> |
+        <a target="_blank" href="http://about.17173.com/join-us.shtml">人才招聘</a> |
+        <a target="_blank" href="http://marketing.17173.com">广告服务</a> |
+        <a target="_blank" href="http://about.17173.com/business-cooperate.shtml">商务洽谈</a> |
+        <a target="_blank" href="http://about.17173.com/contact-us.shtml">联系方式</a> |
+        <a target="_blank" href="http://help.17173.com/">客服中心</a> |
+        <a target="_blank" href="http://about.17173.com/site-map.shtml">网站导航</a> <br>
+        <span class="copyright">Copyright &copy; 2001-2018 17173. All rights reserved.</span>
+    </div>
+    <span id="navCur" hidden style="display: none">首页</span>
+</div>
+<script type="text/javascript" src="/static//js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/static//js/utils.js"></script>
+<script type="text/javascript">
+$(function(){
+    $('.banner').alFadeslider();
+
+    if ($(".nav").length > 0) {
+        $(".nav a").each(function() {
+            if ($(this).text() == $("#navCur").text()) {
+                $(this).attr('class', 'cur');
+            }
+        })
+    }
+    $("#navCur").text();
+
+    //滚动效果
+    $("#js-scroll").alstepscroll({
+        visible:5,
+        pre:'.pre',
+        next:'.next'
+    });
+});
+</script>
+
+<noscript>
+    
+</noscript></body>
+</html>
