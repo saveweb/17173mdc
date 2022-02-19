@@ -11,7 +11,7 @@ mdc.17173.com 的全站纯静态备份，备份时间 2022-02-11+08:00，对网�
 浏览存档网页:
 - http://mdc.17173.imjs.work/ on @jshensh's server.
 - https://17173mdc.archive.othing.xyz/ on Github Pages(sync this repo).
-
+- https://archive-ingress-mdc.of.sb/  host by @laosb 
 
 备份者: 
 - [@jshensh](https://github.com/jshensh)
