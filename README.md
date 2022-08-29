@@ -9,7 +9,7 @@ mdc.17173.com 的全站纯静态备份，备份时间 2022-02-11+08:00，对网�
 5. 将所有网页中使用域名调用的静态资源改为使用本地相对路径
 
 浏览存档网页:
-- http://mdc.17173.imjs.work/ on @jshensh's server.
+- ~~http://mdc.17173.imjs.work/ on @jshensh's server.~~
 - https://17173mdc.archive.othing.xyz/ on Github Pages(sync this repo).
 - https://archive-ingress-mdc.of.sb/  host by @laosb 
 
@@ -28,3 +28,8 @@ mdc.17173.com 的全站纯静态备份，备份时间 2022-02-11+08:00，对网�
 ## 什么是 17173.com？
 
 17173为游戏玩家提供导购、资讯、攻略、论坛等全游戏生命周期内的一站式服务，为游戏发行商提供综合营销解决方案，是面向游戏玩家、运营商、发行商的矩阵化、多平台、综合性游戏媒体群。 
+
+
+---
+## DMCA Notice: 
+saveweb(at)othing.xyz (Reply within 14d)
